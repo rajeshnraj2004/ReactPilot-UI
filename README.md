@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./public/reactpilot-ui-logo.png" width="140" alt="ReactPilot-UI Logo" />
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/reactpilot-ui/main/public/reactpilot-ui-logo.png" width="140" alt="ReactPilot-UI Logo" />
 
 # ⚡ ReactPilot-UI
 
@@ -21,7 +21,7 @@ Modern React UI framework with beautiful components, templates, dashboards, anim
 
 <br/>
 
-<img src="./preview.png" alt="ReactPilot-UI Preview"/>
+<img src="https://raw.githubusercontent.com/rajeshnraj2004/reactpilot-ui/main/preview.png" alt="ReactPilot-UI Preview"/>
 
 </div>
 
@@ -263,19 +263,19 @@ npx reactpilot-ui create landing-page
 
 ## Dashboard UI
 
-<img src="./screenshots/dashboard.png" alt="Dashboard UI"/>
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/reactpilot-ui/main/screenshots/dashboard.png" alt="Dashboard UI"/>
 
 ---
 
 ## Landing Page
 
-<img src="./screenshots/landing.png" alt="Landing Page"/>
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/reactpilot-ui/main/screenshots/landing.png" alt="Landing Page"/>
 
 ---
 
 ## Login UI
 
-<img src="./screenshots/login.png" alt="Login UI"/>
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/reactpilot-ui/main/screenshots/login.png" alt="Login UI"/>
 
 ---
 
