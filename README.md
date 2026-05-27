@@ -1,24 +1,27 @@
-# ⚡ ReactPilot-UI
-
 <div align="center">
 
-<img src="./public/logo.png" width="120" />
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/reactpilot-ui/main/public/logo.png" width="120"/>
 
-# Build React UIs at Lightning Speed
+# ⚡ ReactPilot-UI
+
+### Build React UIs at Lightning Speed
 
 Modern React UI framework with beautiful components, templates, dashboards, animations, and developer tools.
 
+<br/>
+
 <p align="center">
   <img src="https://img.shields.io/npm/v/reactpilot-ui?color=blue" />
-  <img src="https://img.shields.io/github/stars/reactpilot-ui/reactpilot-ui?style=social" />
-  <img src="https://img.shields.io/github/license/reactpilot-ui/reactpilot-ui" />
+  <img src="https://img.shields.io/github/stars/YOUR_USERNAME/reactpilot-ui?style=social" />
+  <img src="https://img.shields.io/github/license/YOUR_USERNAME/reactpilot-ui" />
   <img src="https://img.shields.io/badge/react-19-blue" />
   <img src="https://img.shields.io/badge/vite-fast-purple" />
+  <img src="https://img.shields.io/badge/tailwindcss-modern-cyan" />
 </p>
 
 <br/>
 
-<img src="./preview.png" />
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/reactpilot-ui/main/preview.png"/>
 
 </div>
 
@@ -27,16 +30,15 @@ Modern React UI framework with beautiful components, templates, dashboards, anim
 # ✨ Features
 
 - ⚡ Lightning Fast
-- 🎨 Beautiful Modern UI
+- 🎨 Modern UI Components
 - 🌙 Dark Mode Support
 - 📱 Fully Responsive
-- 🧩 Plug & Play Components
+- 🧩 Plug & Play
 - 🚀 Production Ready
 - 🎬 Smooth Animations
 - 🔥 Tailwind CSS Powered
 - 🛠 Easy Customization
 - 📦 One-Line Installation
-- 🧠 Developer Friendly API
 - 📊 Dashboard Templates
 - 🤖 AI UI Components
 
@@ -66,8 +68,6 @@ pnpm add reactpilot-ui
 
 # 🚀 Quick Start
 
-## 1. Import Component
-
 ```jsx
 import { Dashboard } from "reactpilot-ui"
 
@@ -78,7 +78,7 @@ export default function App() {
 
 ---
 
-# ⚙️ Setup Tailwind CSS
+# ⚙️ Vite Setup
 
 ```bash
 npm install tailwindcss @tailwindcss/vite
@@ -101,64 +101,36 @@ export default defineConfig({
 
 ---
 
-# 📂 Folder Structure
-
-```bash
-reactpilot-ui/
-│
-├── components/
-├── templates/
-├── layouts/
-├── hooks/
-├── animations/
-├── docs/
-├── utils/
-├── styles/
-└── public/
-```
-
----
-
-# 🎨 Components Included
+# 🎨 Components
 
 ## UI Components
 
 - Buttons
 - Cards
 - Inputs
-- Forms
 - Tables
-- Modals
+- Forms
 - Dropdowns
+- Modals
 - Alerts
-- Tabs
-- Badges
 - Sidebars
 - Navbars
 
 ## Templates
 
 - Admin Dashboard
-- Login Page
-- Signup Page
-- Portfolio
-- Landing Page
 - SaaS Dashboard
-- AI Chat Interface
-
-## Special Features
-
-- Dark Mode
-- Theme Switching
-- Responsive Layouts
-- Animation Support
-- Custom Themes
+- Landing Pages
+- Login UI
+- Signup UI
+- AI Chat UI
+- Portfolio UI
 
 ---
 
-# 💻 Example Components
+# 💻 Example Usage
 
-## Button
+## Button Component
 
 ```jsx
 import { Button } from "reactpilot-ui"
@@ -174,7 +146,7 @@ export default function App() {
 
 ---
 
-## Dashboard
+## Dashboard Component
 
 ```jsx
 import { Dashboard } from "reactpilot-ui"
@@ -186,37 +158,30 @@ export default function App() {
 
 ---
 
-## Navbar
+# 📂 Project Structure
 
-```jsx
-import { Navbar } from "reactpilot-ui"
-
-export default function App() {
-  return (
-    <Navbar
-      title="ReactPilot-UI"
-      links={[
-        "Docs",
-        "Components",
-        "Templates",
-      ]}
-    />
-  )
-}
+```bash
+reactpilot-ui/
+│
+├── components/
+├── templates/
+├── layouts/
+├── hooks/
+├── styles/
+├── utils/
+├── animations/
+└── docs/
 ```
 
 ---
 
 # 🌈 Themes
 
-ReactPilot-UI supports:
-
 - Dark Theme
 - Light Theme
 - Neon Theme
 - Glassmorphism
-- Minimal UI
-- Gradient Themes
+- Gradient UI
 
 ---
 
@@ -228,7 +193,6 @@ ReactPilot-UI supports:
 - Framer Motion
 - shadcn/ui
 - Lucide Icons
-- TypeScript
 
 ---
 
@@ -242,9 +206,7 @@ npm create reactpilot-ui
 
 ---
 
-# ⚡ CLI Support
-
-Generate complete UI pages instantly.
+# ⚡ CLI Commands
 
 ```bash
 npx reactpilot-ui create dashboard
@@ -260,9 +222,29 @@ npx reactpilot-ui create landing-page
 
 ---
 
+# 📸 Screenshots
+
+## Dashboard UI
+
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/reactpilot-ui/main/screenshots/dashboard.png"/>
+
+---
+
+## Landing Page
+
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/reactpilot-ui/main/screenshots/landing.png"/>
+
+---
+
+## Login UI
+
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/reactpilot-ui/main/screenshots/login.png"/>
+
+---
+
 # 🚀 Roadmap
 
-- [x] Core UI Components
+- [x] Core Components
 - [x] Tailwind Support
 - [x] Dashboard Templates
 - [ ] CLI Generator
@@ -270,43 +252,22 @@ npx reactpilot-ui create landing-page
 - [ ] Theme Builder
 - [ ] VS Code Extension
 - [ ] React Native Support
-- [ ] Figma Plugin
-
----
-
-# 📸 Screenshots
-
-## Dashboard Preview
-
-<img src="./screenshots/dashboard.png" />
-
-## Landing Page
-
-<img src="./screenshots/landing.png" />
-
-## Login UI
-
-<img src="./screenshots/login.png" />
 
 ---
 
 # 🤝 Contributing
 
-Contributions are welcome!
-
-## Clone Repository
-
 ```bash
-git clone https://github.com/yourusername/reactpilot-ui.git
+git clone https://github.com/YOUR_USERNAME/reactpilot-ui.git
 ```
 
-## Install Dependencies
+```bash
+cd reactpilot-ui
+```
 
 ```bash
 npm install
 ```
-
-## Start Development Server
 
 ```bash
 npm run dev
@@ -321,7 +282,7 @@ If you like this project:
 - ⭐ Star this repository
 - 🍴 Fork the project
 - 🐛 Report bugs
-- 💡 Suggest features
+- 💡 Suggest new features
 
 ---
 
@@ -331,16 +292,10 @@ MIT License © 2026 ReactPilot-UI
 
 ---
 
-# 👨‍💻 Author
-
-Made with ❤️ by Rajesh N
-
----
-
 <div align="center">
 
 # 🚀 Build Faster. Design Better. Ship Smarter.
 
-### ReactPilot-UI
+Made with ❤️ by Rajesh N
 
 </div>
